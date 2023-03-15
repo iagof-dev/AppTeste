@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTeste.MainPage"
+             BackgroundColor="Black"
+             >
+
+    <StackLayout VerticalOptions="Center" >
+
+        <!--<Image Source="https://media.tenor.com/scnMFXm6yyEAAAAd/cat-breakdance.gif" IsAnimationPlaying="True"></Image>
+        -->
+        <Label Text="😎 Sou o Primeiro APP 😎"
+               FontSize="Title"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               TextColor="DarkSlateBlue"/>
+
+        <Label Text="2° D.S"
+               TextColor="White"
+               HorizontalOptions="Center"/>
+
+
+
+        <Entry x:Name="txt_nome"
+               TextColor="White"
+               BackgroundColor="#101010"
+               Placeholder="Digite seu nome:"
+               Margin="10"/>
+
+            <Button CornerRadius="50" Margin="50,0,50,0" Clicked="Button_Clicked" Text="Enviar" />
+    </StackLayout>
+
+</ContentPage>
